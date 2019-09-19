@@ -2,12 +2,20 @@
 p, a{
     font-family: 'Manjari', sans-serif;
 }
+p{
+    line-height: 1.8;
+    letter-spacing: 0.5px;
+}
 h1, h2, h3, h4{
     font-family: 'PT Serif', serif;
     text-transform: uppercase;
 }
 ul li{
     list-style: none;
+}
+ul {
+    margin: 0;
+    padding: 0;
 }
 a{
     text-decoration: none;
@@ -40,8 +48,9 @@ section{
 /* .nav-logo a{
     margin-right: 300px;
 } */
+
 .navi{
-    background: #0099ff;
+    background: #0803fc;
 }
 .navi li a{
     color: #ffffff !important;
@@ -50,7 +59,10 @@ section{
     background: #0099ff75;
 }
 .main-nav{
-    padding-top: 20px;
+    padding-top: 5px;
+}
+.dropdown-item{
+    color: #212529 !important;
 }
 .nav-link{
     /* padding: 20px; */
@@ -59,7 +71,7 @@ section{
     text-transform: uppercase;
 }
 .main-nav li{
-    padding: 10px;
+    padding: 5px;
 }
 .main-nav a:active{
     color: #ff5500;
@@ -91,7 +103,7 @@ main section h1:before{
     position: absolute;
     bottom: 0%;
 }
-main section p{
+main .about p{
     text-align: justify;
     padding-top: 15px;
 }
@@ -108,7 +120,7 @@ main section p{
     font-weight: 400;
     margin-top: 0px;
     margin-bottom: 15px;
-    border-bottom: 1px solid #017000;
+    border-bottom: 1px solid #f60400;
 }
 .category-box ul {
     margin: 0 -20px;
@@ -218,3 +230,78 @@ main section p{
   section h1{
       margin-bottom: 20px;
   }
+  /* gallery */
+
+  /* courses */
+  .courses .services-grids span {
+    font-size: 2.5em;
+  }
+  .services-grids {
+    text-align: center;
+}
+.services-grids h4 {
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 1.5em;
+    font-weight: 600;
+}
+
+  /* courses */
+
+  /* footer */
+  .footer_section_1its {
+    background: #151515;
+}
+.footer_section_1its h3, .footer_section_1its h2 {
+    font-size: 22px;
+    color: #ffffff;
+    font-weight: 600;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+.footer-text p, .contact-info p {
+    color: #808080;
+    font-size: 14px;
+    line-height: 1.8em;
+    letter-spacing: 0.5px;
+}
+ul.social_section_1info li {
+    display: inline-block;
+}
+ul.social_section_1info a {
+    color: #808080;
+    margin-right: 10px;
+    font-size: 15px;
+}
+.contact-info h4 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.1em;
+    line-height: 1.71;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    color: #fff;
+}
+ul.links li a {
+    color: #808080;
+    font-size: 15px;
+    letter-spacing: .5px;
+}
+.phone p a {
+    color: #808080;
+}
+.copyright {
+    border-top: 1px solid #808080;
+    margin-top: 2em;
+    padding-top: 2em;
+    margin-left: 15px;
+}
+.copyright p {
+    font-size: 15px;
+    letter-spacing: .5px;
+    text-transform: capitalize;
+}
+.footer p {
+    color: #808080;
+}
+  /* footer */
