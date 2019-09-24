@@ -240,7 +240,7 @@ main .about p{
     font-size: 2.5em;
   }
   .services-grids {
-    text-align: center;
+    text-align: justify;
 }
 .services-grids h4 {
     font-size: 18px;
